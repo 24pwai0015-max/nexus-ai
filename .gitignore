@@ -1,0 +1,30 @@
+# Environment and Secrets
+.env
+.env.local
+*.env
+
+# SQLite Persistent Database
+nexus_ai.db
+*.sqlite3
+*.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+
+# User Uploaded Documents & Synthesized Files
+uploads/*
+!uploads/.gitkeep
+generated_docs/*
+!generated_docs/.gitkeep
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
